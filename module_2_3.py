@@ -9,13 +9,15 @@ i = 0
 while i < a:
     if l [i] <= 0:
         i += 1
+        continue
+    print(l[i])
+    i += 1
+    if l [i] <= 0:
+        i += 1
         break
     print(l[i])
     i += 1
+
     
      
-
-
-
-
 
